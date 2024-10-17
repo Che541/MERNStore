@@ -1,0 +1,30 @@
+{
+  "name": "mernstore",
+  "version": "1.0.0",
+  "description": "A store site that uses the MERN stack.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon backend/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Che541/MERNStore.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Che541/MERNStore/issues"
+  },
+  "type": "module",
+  "homepage": "https://github.com/Che541/MERNStore#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongoose": "^8.7.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
